@@ -75,7 +75,7 @@ export default function NumberGuessing(): JSX.Element {
 
   // JSX to render the game UI
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-gray-800 to-black bg-[url('https://images.pexels.com/photos/9278714/pexels-photo-9278714.jpeg')] bg-cover">
+    <div className="flex flex-col items-center justify-center h-screen bg-[url('https://images.pexels.com/photos/9278714/pexels-photo-9278714.jpeg')] bg-cover">
       {/* Main container for the game */}
       <div className="bg-orange-400 rounded-lg shadow-lg p-8 w-full max-w-md">
         {/* Title of the game */}
